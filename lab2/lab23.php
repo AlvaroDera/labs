@@ -6,14 +6,14 @@
 <body>
     <center>
         <?php
-            print ("<ul>\n");
+            print ("<UL>\n");
             $i=1;
             while ($i <= 5)
             {
-                print ("<li>Elementos $i</li>n");
+                print ("<LI>Elementos $i</LI>\n");
                 $i++;
             }
-            print ("</ul>\n");
+            print ("</UL>\n");
         ?>
     </center>
 </body>
